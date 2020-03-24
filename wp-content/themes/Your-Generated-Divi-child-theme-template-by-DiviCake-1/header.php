@@ -110,6 +110,7 @@
 	<?php wp_head(); ?>
 </head>
 <body onload = "getSeconds()" <?php body_class(); ?>>
+<h1> Header </h1>
 <?php
 	$product_tour_enabled = et_builder_is_product_tour_enabled();
 	$page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : ''; ?>
