@@ -1,0 +1,133 @@
+#add-ons-box1, #add-ons-box2, #add-ons-box3, #add-ons-box4{
+	width: 100%;
+}
+
+#teddy_containter img, #chocolates_containter img, #wine_containter img, #balloon_containter img{
+	float: left;
+    width: 100%;
+    max-width: 72px;
+    height: auto;
+}
+
+.add_a_teddy_bear, .add_a_chocolates, .add_a_bottle_of_wine, .add_a_balloon{
+	float: left;
+}
+
+/** Checkout Form Select Country **/
+.select2-container--default 
+.select2-selection--single 
+.select2-selection__rendered {
+    line-height: 50px;
+}
+
+.select2-container--default 
+.select2-selection--single {
+	height: 53px;
+}
+
+.select2-container--default 
+.select2-selection--single 
+.select2-selection__arrow {
+    height: 50px;
+}
+
+/** checkout form **/
+.woocommerce-checkout #shipping_address_2{ 
+	margin-top: 25px;
+}
+
+/** Checkout form fields Billing **/
+.page-id-43 #billing_address_2{
+	margin-top: 25px;
+}
+
+.woocommerce-billing-fields #billing_company_field{
+	padding-top: 1px;
+}
+
+.woocommerce-billing-fields #billing_country_field{
+	margin-top: 2px;
+}
+
+.woocommerce-billing-fields #billing_country_field {
+    margin-top: -2px;
+}
+
+.woocommerce-billing-fields #billing_address_1_field {
+   margin-top: 8px;
+}
+
+.woocommerce-billing-fields #billing_address_2_field {
+   margin-top: 7px;
+}
+
+.woocommerce-billing-fields #billing_city_field {
+    margin-top: -2px;
+}
+
+.woocommerce-billing-fields #billing_state_field {
+    margin-top: -2px;
+}
+
+.woocommerce-billing-fields #billing_postcode_field{
+	margin-top: -2px;
+}
+
+.woocommerce-billing-fields #billing_phone_field{
+	margin-top: -2px;
+}
+
+.woocommerce-billing-fields #billing_email_field{
+	margin-top: -2px;
+}
+
+/** Checkout form fields Shipping **/
+.woocommerce-shipping-fields__field-wrapper #shipping_company_field{
+	padding-top: 1px;
+}
+
+.woocommerce-shipping-fields__field-wrapper #shipping_address_2_field{
+	padding-top: 2px;
+	/* border: solid 1px red!important; */
+}
+
+.page-id-43 #shipping_address_2{
+	margin-top: 27px;
+}
+
+.woocommerce-shipping-fields__field-wrapper #shipping_city_field{
+	margin-top: -2px;
+}
+
+.woocommerce-shipping-fields__field-wrapper #shipping_state_field{
+	margin-top: -2px;
+}
+
+.woocommerce-shipping-fields__field-wrapper #shipping_postcode_field{
+	margin-top: 8px;
+}
+
+.woocommerce-shipping-fields__field-wrapper #shipping_phone_field{
+	margin-top: -2px;
+}
+
+.woocommerce-shipping-fields #e_deliverydate_field{
+	padding-top: 4px;
+}
+
+.woocommerce-additional-fields__field-wrapper #order_comments_field{
+	padding-top: 4px;
+}
+
+#billing_first_name_field > label, #billing_last_name_field > label, #billing_company_field > label, #billing_address_1_field label, #shipping_address_1_field label,
+#shipping_first_name_field label, #shipping_last_name_field label, #shipping_company_field label{
+	text-transform: capitalize;
+}
+
+#billing_email_field label{
+     text-transform: capitalize;
+}
+
+#billing_company_field .optional, #shipping_company_field .optional{
+	 text-transform: lowercase!important
+}

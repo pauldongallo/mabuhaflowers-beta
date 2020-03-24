@@ -1,0 +1,15 @@
+/*======================================
+Theme Name: divi child theme
+Theme URI: https://divicake.com/
+Description: Child Theme
+Version: 1.0
+Author: Paul C Dongallo
+Author URI: https://divicake.com/
+Template: Divi
+======================================*/
+
+/* You can add your own CSS styles here. Use !important to overwrite styles if needed. */
+
+#mobile_view_mb{
+	display: none;
+}

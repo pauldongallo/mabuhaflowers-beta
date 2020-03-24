@@ -1,0 +1,14 @@
+#mobile_view_mb{
+	display: none;
+}
+
+/** Hide the main header safari issues **/
+	/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px){
+	
+	.et_header_style_left .mobile_menu_bar{
+		text-align: center;
+	}
+
+}
+
